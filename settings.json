@@ -1008,7 +1008,7 @@
     "discordInvite": "https://discord.gg/Discord",
     "banMessage": "You have been banned by the anticheat",
     "kickMessage": "You have been kicked",
-    "connectMessage": "Connection secured by Nasa Anticheat, checking banlist"
+    "connectMessage": "Connection secured by Bigboss Anticheat, checking banlist"
   },
   "reputation": {
     "filteringMode": "strict",
