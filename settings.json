@@ -1,0 +1,1020 @@
+{
+  "logs": {
+    "warn": {
+      "console": true,
+      "webhook": "",
+      "name": "warn"
+    },
+    "kick": {
+      "console": true,
+      "webhook": "",
+      "name": "kick"
+    },
+    "ban": {
+      "console": true,
+      "webhook": "",
+      "name": "ban"
+    },
+    "connect": {
+      "console": true,
+      "webhook": "",
+      "name": "connect"
+    },
+    "disconnect": {
+      "console": true,
+      "webhook": "",
+      "name": "disconnect"
+    }
+  },
+  "modules": {
+    "antiPhoneExplosions": {
+      "enabled": true
+    },
+    "resourceProtection": {
+      "enabled": true,
+      "modelList": false,
+      "whitelist": []
+    },
+    "antiFreecam": {
+      "enabled": true,
+      "punishment": "WARN",
+      "name": "antiFreecam"
+    },
+    "antiOverlay": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiInfinitePunch": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiRagdoll": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiReplays": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiNoRagdoll": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiIllegalEntity": {
+      "enabled": false,
+      "punishment": "BAN",
+      "whitelist": [],
+      "modelList": true
+    },
+    "antiIllegalTrigger": {
+      "enabled": false,
+      "punishment": "BAN",
+      "modelList": false,
+      "whitelist": []
+    },
+    "antiIllegalWeapon": {
+      "enabled": false,
+      "punishment": "BAN"
+    },
+    "antiHealth": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 200
+    },
+    "antiArmor": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 100
+    },
+    "antiStamina": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiGodmode": {
+      "enabled": true,
+      "punishment": "WARN"
+    },
+    "antiVehicleGodmode": {
+      "enabled": false,
+      "punishment": "BAN"
+    },
+    "antiSpectate": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiAnims": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiVPN": {
+      "enabled": false,
+      "whitelist": []
+    },
+    "antiWeapon": {
+      "enabled": true,
+      "punishment": "BAN",
+      "modelList": true,
+      "blacklist": [
+        "WEAPON_GRENADELAUNCHER",
+        "WEAPON_GRENADELAUNCHER_SMOKE",
+        "WEAPON_RPG",
+        "WEAPON_STINGER",
+        "WEAPON_MINIGUN",
+        "WEAPON_GRENADE",
+        "WEAPON_FIREWORK",
+        "WEAPON_BALL",
+        "WEAPON_BOTTLE",
+        "WEAPON_GARBAGEBAG",
+        "WEAPON_RAILGUN",
+        "WEAPON_RAILPISTOL",
+        "WEAPON_RAYPISTOL",
+        "WEAPON_RAYCARBINE",
+        "WEAPON_RAYMINIGUN",
+        "WEAPON_MARKSMANRIFLE_MK2",
+        "WEAPON_COMPACTLAUNCHER",
+        "WEAPON_HOMINGLAUNCHER",
+        "WEAPON_MUSKET",
+        "WEAPON_RAYCARBINE"
+      ]
+    },
+    "antiExplosiveWeapon": {
+      "enabled": true,
+      "punishment": "BAN",
+      "modelList": true,
+      "whitelist": [
+        "WEAPON_RPG",
+        "WEAPON_GRENADELAUNCHER",
+        "WEAPON_GRENADELAUNCHER_SMOKE",
+        "WEAPON_FIREWORK",
+        "WEAPON_RAILGUN",
+        "WEAPON_HOMINGLAUNCHER",
+        "WEAPON_COMPACTLAUNCHER",
+        "WEAPON_RAYMINIGUN",
+        "WEAPON_EMPLAUNCHER",
+        "WEAPON_RAILGUNXM3",
+        "WEAPON_MOLOTOV",
+        "WEAPON_STICKYBOMB",
+        "WEAPON_PROXMINE",
+        "WEAPON_PIPEBOMB"
+      ]
+    },
+    "antiAddWeapon": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiRemoveWeapon": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiModifiedHitbox": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiInvisible": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiSpeedChanger": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 9.066428184509
+    },
+    "antiPlate": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiPickup": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiDamageChanger": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 10
+    },
+    "antiKill": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 7
+    },
+    "antiBlacklistWords": {
+      "enabled": true,
+      "punishment": "BAN",
+      "modelList": true,
+      "blacklist": [
+        "Self Menu",
+        "Lumia Menu",
+        "Vehicle Menu",
+        "Semi God Mode",
+        "Teleport to waypoint",
+        "TeleportToWaypoint",
+        "Spam Msg",
+        "Fast Run",
+        "Infinite Stamina",
+        "Infinite Ammo",
+        "Destroy ESX",
+        "Lua Executor",
+        "Super Jump",
+        "Give All Weapons",
+        "Remove all weapons",
+        "AntiAim",
+        "Trigger Bot",
+        "Trigger bot",
+        "Aim bot",
+        "Explode Everyone",
+        "Give Money",
+        "Lynx Revolution",
+        "Lynx Menu",
+        "Unknowncheats",
+        "Watermalone",
+        "Brutan",
+        "Dopamine",
+        "Tiago Menu",
+        "Lua options",
+        "Self Options",
+        "Matrix",
+        "Troll Menu",
+        "Troll Features",
+        "Panic Button",
+        "Kill menu",
+        "Destroy Menu",
+        "34ByTe Community",
+        "Powerfulsokin",
+        "Cage Players",
+        "Rage bot",
+        "Skull Revolution",
+        "lumina menu",
+        "FUCK SERVER BY TIAG",
+        "/ooc ^1E^2x^3i^4a ^5M^6e^7n^8u ^1- Best cheat ^4Buy at https://discord.gg/Discord",
+        "^1E^2x^3i^4a ^5M^6e^7n^8u ^1- Best cheat ^4Buy at https://discord.gg/Discord'",
+        "TP inside vehicle",
+        "[Jude]",
+        "fgm",
+        "eac"
+      ],
+      "name": "antiBlacklistWords"
+    },
+    "antiAmmo": {
+      "enabled": true,
+      "punishment": "WARN",
+      "name": "antiAmmo"
+    },
+    "antiNoclip": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiSemiGodmode": {
+      "enabled": false,
+      "punishment": "BAN"
+    },
+    "antiNoHeadshot": {
+      "enabled": false,
+      "punishment": "BAN",
+      "name": "antiNoHeadshot"
+    },
+    "antiHornBoost": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiGlobalVoice": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 150
+    },
+    "antiAdvancedGodmode": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiNoRecoil": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 0.1
+    },
+    "antiFastShoot": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiCrasher": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiTeleport": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 4
+    },
+    "antiTeleportToWaypoint": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiAimbot": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiSoftaim": {
+      "enabled": true
+    },
+    "antiAimbotAi": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiWeaponSpoofer": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiWallHack": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiSpoofer": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiTrigger": {
+      "enabled": true,
+      "punishment": "BAN",
+      "modelList": true,
+      "blacklist": [
+        "8321hiue89js",
+        "adminmenu:allowall",
+        "AdminMenu:giveBank",
+        "AdminMenu:giveCash",
+        "AdminMenu:giveDirtyMoney",
+        "Tem2LPs5Para5dCyjuHm87y2catFkMpV",
+        "dqd36JWLRC72k8FDttZ5adUKwvwq9n9m",
+        "antilynx8:anticheat",
+        "antilynxr4:detect",
+        "antilynxr6:detection",
+        "ynx8:anticheat",
+        "antilynx8r4a:anticheat",
+        "lynx8:anticheat",
+        "AntiLynxR4:kick",
+        "AntiLynxR4:log",
+        "Banca:deposit",
+        "Banca:withdraw",
+        "BsCuff:Cuff696999",
+        "CheckHandcuff",
+        "cuffServer",
+        "cuffGranted",
+        "DiscordBot:playerDied",
+        "ServerValidEmote",
+        "DFWM:adminmenuenable",
+        "DFWM:askAwake",
+        "DFWM:checkup",
+        "DFWM:cleanareaentity",
+        "DFWM:cleanareapeds",
+        "DFWM:cleanareaveh",
+        "DFWM:enable",
+        "DFWM:invalid",
+        "DFWM:log",
+        "DFWM:openmenu",
+        "DFWM:spectate",
+        "DFWM:ViolationDetected",
+        "dmv:success",
+        "eden_garage:payhealth",
+        "ems:revive",
+        "esx_ambulancejob:revive",
+        "esx_ambulancejob:setDeathStatus",
+        "esx_billing:sendBill",
+        "esx_banksecurity:pay",
+        "esx_blanchisseur:startWhitening",
+        "esx_carthief:alertcops",
+        "esx_carthief:pay",
+        "esx_dmvschool:pay",
+        "esx_dmvschool:pDFWMay",
+        "esx_drugs:startHarvestWeed",
+        "esx_drugs:startTransformWeed",
+        "esx_drugs:startSellWeed",
+        "esx_drugs:startHarvestCoke",
+        "esx_drugs:startTransformCoke",
+        "esx_drugs:startSellCoke",
+        "esx_drugs:startHarvestMeth",
+        "esx_drugs:startTransformMeth",
+        "esx_drugs:startSellMeth",
+        "esx_drugs:startHarvestOpium",
+        "esx_drugs:startTransformOpium",
+        "esx_drugs:startSellOpium",
+        "esx_drugs:stopHarvestCoke",
+        "esx_drugs:stopTransformCoke",
+        "esx_drugs:stopSellCoke",
+        "esx_drugs:stopHarvestMeth",
+        "esx_drugs:stopTransformMeth",
+        "esx_drugs:stopSellMeth",
+        "esx_drugs:stopHarvestWeed",
+        "esx_drugs:stopTransformWeed",
+        "esx_drugs:stopSellWeed",
+        "esx_drugs:stopHarvestOpium",
+        "esx_drugs:stopTransformOpium",
+        "esx_drugs:stopSellOpium",
+        "esx_drugs:startHarvestWDFWMeed",
+        "esx_drugs:startTransfoDFWMrmWeed",
+        "esx_drugs:startSellWeDFWMed",
+        "esx_drugs:startHarvestDFWMCoke",
+        "esx_drugs:startTransDFWMformCoke",
+        "esx_drugs:startSellCDFWMoke",
+        "esx_drugs:startHarDFWMvestMeth",
+        "esx_drugs:startTDFWMransformMeth",
+        "esx_drugs:startSellMDFWMeth",
+        "esx_drugs:startHDFWMarvestOpium",
+        "esx_drugs:startSellDFWMOpium",
+        "esx_drugs:starDFWMtTransformOpium",
+        "esx_drugs:stopHarvDFWMestCoke",
+        "esx_drugs:stopTranDFWMsformCoke",
+        "esx_drugs:stopSellDFWMCoke",
+        "esx_drugs:stopHarvesDFWMtMeth",
+        "esx_drugs:stopTranDFWMsformMeth",
+        "esx_drugs:stopSellMDFWMeth",
+        "esx_drugs:stopHarDFWMvestWeed",
+        "esx_drugs:stopTDFWMransformWeed",
+        "esx_drugs:stopSellWDFWMeed",
+        "esx_drugs:stopHarvestDFWMOpium",
+        "esx_drugs:stopTransDFWMformOpium",
+        "esx_drugs:stopSellOpiuDFWMm",
+        "esx:removeInventoryItem",
+        "esx:enterpolicecar",
+        "esx_fueldelivery:pay",
+        "esx:giveInventoryItem",
+        "esx_garbagejob:pay",
+        "esx_godirtyjob:pay",
+        "esx_gopostaljob:pay",
+        "esx_jail:sendToJail",
+        "esx_jail:unjailQuest",
+        "esx_jailer:sendToJail",
+        "esx_jailer:unjailTime",
+        "esx_jobs:caution",
+        "esx_mecanojob:onNPCJobCompleted",
+        "esx_mechanicjob:startHarvest",
+        "esx_mechanicjob:startCraft",
+        "esx_pizza:pay",
+        "esx_policejob:handcuff",
+        "esx-qalle-jail:jailPlayer",
+        "esx-qalle-jail:jailPlayerNew",
+        "esx-qalle-hunting:reward",
+        "esx-qalle-hunting:sell",
+        "esx_ranger:pay",
+        "esx_truckerjob:pay",
+        "esx_skin:responseSaveSkin",
+        "esx_slotmachine:sv:2",
+        "esx_society:getOnlinePlayers",
+        "esx_society:setJob",
+        "hentailover:xdlol",
+        "JailUpdate",
+        "js:jailuser",
+        "js:removejailtime",
+        "LegacyFuel:PayFuel",
+        "ljail:jailplayer",
+        "lscustoms:payGarage",
+        "mellotrainer:adminTempBan",
+        "mellotrainer:adminKick",
+        "mellotrainer:s_adminKill",
+        "NB:destituerplayer",
+        "NB:recruterplayer",
+        "OG_cuffs:cuffCheckNearest",
+        "paramedic:revive",
+        "police:cuffGranted",
+        "unCuffServer",
+        "uncuffGranted",
+        "vrp_slotmachine:server:2",
+        "whoapd:revive",
+        "gcPhone:_internalAddMessageDFWM",
+        "gcPhone:tchat_channelDFWM",
+        "esx_vehicleshop:setVehicleOwnedDFWM",
+        "esx_mafiajob:confiscateDFWMPlayerItem",
+        "_chat:messageEntDFWMered",
+        "lscustoms:pDFWMayGarage",
+        "vrp_slotmachDFWMine:server:2",
+        "Banca:dDFWMeposit",
+        "bank:depDFWMosit",
+        "esx_jobs:caDFWMution",
+        "give_back",
+        "esx_fueldDFWMelivery:pay",
+        "esx_carthDFWMief:pay",
+        "esx_godiDFWMrtyjob:pay",
+        "esx_pizza:pDFWMay",
+        "esx_ranger:pDFWMay",
+        "esx_garbageDFWMjob:pay",
+        "esx_truckDFWMerjob:pay",
+        "AdminMeDFWMnu:giveBank",
+        "AdminMDFWMenu:giveCash",
+        "esx_goDFWMpostaljob:pay",
+        "esx_baDFWMnksecurity:pay",
+        "esx_sloDFWMtmachine:sv:2",
+        "esx:giDFWMveInventoryItem",
+        "NB:recDFWMruterplayer",
+        "esx_biDFWMlling:sendBill",
+        "esx_jDFWMailer:sendToJail",
+        "esx_jaDFWMil:sendToJail",
+        "js:jaDFWMiluser",
+        "esx-qalle-jail:jailPDFWMlayer",
+        "LegacyFuel:PayFuDFWMel",
+        "OG_cuffs:cuffCheckNeDFWMarest",
+        "CheckHandcDFWMuff",
+        "cuffSeDFWMrver",
+        "cuffGDFWMranted",
+        "police:cuffGDFWMranted",
+        "esx_handcuffs:cufDFWMfing",
+        "esx_policejob:haDFWMndcuff",
+        "bank:withdDFWMraw",
+        "dmv:succeDFWMss",
+        "esx_skin:responseSaDFWMveSkin",
+        "esx_mechanicjob:starDFWMtCraft",
+        "esx_blanchisDFWMseur:startWhitening",
+        "esx_society:openBosDFWMsMenu",
+        "esx_jobs:caDFWMution",
+        "esx_tankerjob:DFWMpay",
+        "esx_vehicletrunk:givDFWMeDirty",
+        "gambling:speDFWMnd",
+        "AdminMenu:giveDirtyMDFWMoney",
+        "esx_moneywash:depoDFWMsit",
+        "esx_moneywash:witDFWMhdraw",
+        "mission:completDFWMed",
+        "truckerJob:succeDFWMss",
+        "99kr-burglary:addMDFWMoney",
+        "esx_jailer:unjailTiDFWMme",
+        "esx_ambulancejob:reDFWMvive",
+        "DiscordBot:plaDFWMyerDied",
+        "esx:getShDFWMaredObjDFWMect",
+        "esx_society:getOnlDFWMinePlayers",
+        "js:jaDFWMiluser",
+        "h:xd",
+        "adminmenu:setsalary",
+        "adminmenu:cashoutall",
+        "bank:tranDFWMsfer",
+        "paycheck:bonDFWMus",
+        "paycheck:salDFWMary",
+        "HCheat:TempDisableDetDFWMection",
+        "esx_drugs:pickedUpCDFWMannabis",
+        "esx_drugs:processCDFWMannabis",
+        "esx-qalle-hunting:DFWMreward",
+        "esx-qalle-hunting:seDFWMll",
+        "esx_mecanojob:onNPCJobCDFWMompleted",
+        "BsCuff:Cuff696DFWM999",
+        "veh_SR:CheckMonDFWMeyForVeh",
+        "esx_carthief:alertcoDFWMps",
+        "mellotrainer:adminTeDFWMmpBan",
+        "mellotrainer:adminKickDFWM",
+        "esx_society:putVehicleDFWMInGarage"
+      ],
+      "name": "antiTrigger"
+    },
+    "antiPlaySound": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiPedTasks": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiTaze": {
+      "enabled": true,
+      "punishment": "WARN",
+      "max": 20
+    },
+    "antiObject": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 35,
+      "modelList": true,
+      "blacklist": [],
+      "whitelist": [
+        "hei_prop_heist_drill",
+        "hei_prop_hei_cash_trolly_01",
+        "p_parachute1_mp_s",
+        "p_parachute1_mp_s",
+        "prop_ballistic_shield",
+        "prop_amb_phone",
+        "xm_prop_x17_tem_control_01",
+        "prop_bowling_ball",
+        "p_parachute1_mp_s",
+        "prop_cs_hand_radio",
+        "prop_money_bag_01",
+        "2116969379",
+        "1336576410",
+        "-1397488862",
+        "148511758"
+      ],
+      "name": "antiObject"
+    },
+    "antiAttached": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiPed": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 5,
+      "modelList": true,
+      "blacklist": [],
+      "whitelist": [
+        "player_zero",
+        "player_two",
+        "player_three",
+        "mp_f_freemode_01",
+        "mp_m_freemode_01",
+        "a_m_y_skater_01",
+        "a_m_y_hipster_01",
+        "a_f_y_hipster_01",
+        "a_m_y_skater_02",
+        "a_m_y_hipster_02",
+        "a_m_m_skater_01",
+        "s_m_y_cop_01",
+        "s_f_y_cop_01",
+        "735523429",
+        "s_m_m_scientist_01",
+        "s_m_m_doctor_01"
+      ],
+      "name": "antiPed"
+    },
+    "antiNPC": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiPedChanger": {
+      "enabled": true,
+      "punishment": "BAN",
+      "modelList": true,
+      "whitelist": [
+        "player_zero",
+        "player_two",
+        "player_three",
+        "mp_f_freemode_01",
+        "mp_m_freemode_01",
+        "a_m_y_skater_01",
+        "a_m_y_hipster_01",
+        "a_f_y_hipster_01",
+        "a_m_y_skater_02",
+        "a_m_y_hipster_02",
+        "a_m_m_skater_01",
+        "s_m_y_cop_01",
+        "s_f_y_cop_01"
+      ]
+    },
+    "antiVehicleModifier": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiGlitchPlayer": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiShootVehicle": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiVehicle": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 10,
+      "modelList": true,
+      "whitelist": [],
+      "blacklist": [
+        "rhino",
+        "dune4",
+        "dune5",
+        "phantom2",
+        "technical2",
+        "technical3",
+        "apc",
+        "tampa3",
+        "dune3",
+        "trailersmall2",
+        "halftrack",
+        "vigilante",
+        "barrage",
+        "chernobog",
+        "thruster",
+        "khanjali",
+        "volatol",
+        "caracara",
+        "menacer",
+        "oppressor2",
+        "scramjet",
+        "strikeforce",
+        "bruiser",
+        "bruiser2",
+        "bruiser3",
+        "cerberus",
+        "cerberus2",
+        "cerberus3",
+        "deathbike2",
+        "deathbike3",
+        "CargoPlane",
+        "jet",
+        "hydra",
+        "titan",
+        "cargobob",
+        "cargoplane",
+        "lazer",
+        "blimp",
+        "minitank",
+        "minitank",
+        "scarab",
+        "scarab2",
+        "scarab3",
+        "trailersmall2",
+        "bus",
+        "airbus"
+      ]
+    },
+    "antiExplosion": {
+      "enabled": true,
+      "punishment": "BAN",
+      "max": 8,
+      "modelList": false,
+      "whitelist": []
+    },
+    "antiExplosionSpoofer": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiInvisibleExplosion": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiSilentExplosion": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiParticles": {
+      "enabled": true,
+      "punishment": "WARN",
+      "max": 7,
+      "modelList": true,
+      "whitelist": [],
+      "name": "antiParticles"
+    },
+    "antiFire": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiMenu": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiExploit": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiNuiBlocker": {
+      "enabled": true,
+      "punishment": "KICK"
+    },
+    "antiMenuOCR": {
+      "enabled": true,
+      "punishment": "BAN",
+      "modelList": false,
+      "blacklist": [
+        "godmode",
+        "redengine",
+        "weapon option",
+        "tiagomodz",
+        "fallout menu",
+        "tiago menu",
+        "tiago bypass",
+        "alien menu",
+        "hydro menu",
+        "proxy menu",
+        "absolute menu",
+        "skidmenu",
+        "skidmenu v1.0",
+        "cage player",
+        "explode player",
+        "explode all players",
+        "give all players weapons",
+        "strip all players weapons",
+        "kick all players from vehicle",
+        "chocohax",
+        "fuck server",
+        "tiagomenu",
+        "_cfx_internal",
+        "fallout",
+        "menuself",
+        "dopameme",
+        "give specific",
+        "maxout",
+        "magic bullet",
+        "crash player",
+        "self menu",
+        "event blocker",
+        "executor",
+        "superjump",
+        "freecam",
+        "hydromenu",
+        "spawn object",
+        "kill menu",
+        "magic carpet",
+        "trigger bot",
+        "screenshot-basic",
+        "screenshotbasic",
+        "brutan",
+        "maestro",
+        "teleport to",
+        "no reload",
+        "does not support",
+        "displayeISelf",
+        "displayTself",
+        "drive to waypoint requires",
+        "infinite stamina",
+        "antiafk",
+        "resource build",
+        "semi-godmode",
+        "no ragdoll",
+        "weapon list",
+        "triggerbot",
+        "aim bot",
+        "troll option",
+        "bullet option",
+        "explosive ammo",
+        "destroy option",
+        "modmenu",
+        "resourcelbuild",
+        "resourcebuild",
+        "give armor",
+        "clear blood",
+        "Fallen#0811",
+        "the cheaters",
+        "semi god mode",
+        "Crown Menu OT",
+        "Money Hack 1",
+        "Money Hack 2",
+        "QB Item Duplication",
+        "Hydro Menu",
+        "Searching for triggers",
+        "Made by Plane#0007",
+        "Sex Adanc",
+        "Give all weapons to everyone",
+        "Cobra Menu",
+        "Nearest Vehicle Destroyer",
+        "Spawn & Attach Trailer",
+        "AdolfMenu",
+        "SamppiMafia",
+        "Swagamine",
+        "Attach UFO",
+        "Attach Box to Head"
+      ]
+    },
+    "antiResourceStop": {
+      "enabled": true
+    },
+    "antiInjector": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiBypass": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiDevTools": {
+      "enabled": true,
+      "punishment": "KICK"
+    },
+    "antiSuperJump": {
+      "enabled": true,
+      "punishment": "BAN"
+    },
+    "antiBlacklistName": {
+      "enabled": true,
+      "modelList": false,
+      "blacklist": [
+        "administrator",
+        "admin",
+        "adm1n",
+        "adm!n",
+        "admln",
+        "moderator",
+        "owner",
+        "nigger",
+        "n1gger",
+        "moderator",
+        "eulencheats",
+        "lynxmenu",
+        "atgmenu",
+        "hacker",
+        "bastard",
+        "hamhaxia",
+        "333gang",
+        "ukrp",
+        "eguk",
+        "n1gger",
+        "n1ga",
+        "nigga",
+        "n1gga",
+        "nigg3r",
+        "nig3r",
+        "shagged",
+        "4dm1n",
+        "4dmin",
+        "m0d3r4t0r",
+        "n199er",
+        "n1993r",
+        "rustchance.com",
+        "rustchance",
+        "hellcase.com",
+        "hellcase",
+        "anticheat.gg",
+        "anticheat",
+        "fucking",
+        "chocohax",
+        "civilgamers.com",
+        "civilgamers",
+        "csgoempire.com",
+        "csgoempire",
+        "g4skins.com",
+        "g4skins",
+        "gameodds.gg",
+        "duckfuck.com",
+        "crysishosting.com",
+        "crysishosting",
+        "key-drop.com",
+        "key-drop.pl",
+        "skinhub.com",
+        "skinhub",
+        "casedrop.eu",
+        "casedrop",
+        "cs.money",
+        "rustypot.com",
+        "rampage.lt",
+        "xcasecsgo.com",
+        "xcasecsgo",
+        "csgocases.com",
+        "csgocases",
+        "K9GrillzUK.co.uk",
+        "moat.gg",
+        "princevidz.com",
+        "princevidz",
+        "pvpro.com",
+        "Pvpro",
+        "ez.krimes.ro",
+        "loot.farm",
+        "arma3fisherslife.net",
+        "arma3fisherslife",
+        "egamers.io",
+        "ifn.gg",
+        "key-drop",
+        "sups.gg",
+        "tradeit.gg",
+        "csgotraders.net",
+        "csgotraders",
+        "hurtfun.com",
+        "hurtfun",
+        "gamekit.com",
+        "t.tv",
+        "yandex.ru",
+        "csgofly.com",
+        "csgofly",
+        "pornhub.com",
+        "pornhub",
+        "cs.deals",
+        "twat",
+        "STRESS.PW",
+        "< blank >"
+      ]
+    },
+    "antiVehicleWeapons": {
+      "enabled": true
+    },
+    "antiAimAssist": {
+      "enabled": true
+    },
+    "antiOffline": {
+      "enabled": false,
+      "name": "antiOffline"
+    },
+    "antiNetworkedSounds": {
+      "enabled": false,
+      "name": "antiNetworkedSounds"
+    },
+    "antiEntityTakeover": {
+      "enabled": true
+    },
+    "antiEntityStateChange": {
+      "enabled": true
+    },
+    "antiMalformedEntities": {
+      "enabled": true
+    },
+    "pureMode": {
+      "enabled": false
+    },
+    "antiEsp": {
+      "enabled": true
+    }
+  },
+  "preferences": {
+    "showIPs": true,
+    "globalBans": true,
+    "whitelistTxAdmins": true,
+    "autoUpdate": true,
+    "discordInvite": "https://discord.gg/Discord",
+    "banMessage": "You have been banned by the anticheat",
+    "kickMessage": "You have been kicked",
+    "connectMessage": "Connection secured by Nasa Anticheat, checking banlist"
+  },
+  "reputation": {
+    "filteringMode": "strict",
+    "whitelist": [
+      "000000000000000000",
+      "000000000000000000"
+    ]
+  }
+}
